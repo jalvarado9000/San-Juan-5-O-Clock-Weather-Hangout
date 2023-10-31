@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    margin: 0;
+    padding: 0;
+    background-image: url("../photos/3-d-old-san-juan-full-view-without-white-1-scaled.jpg");
+    background-repeat: no-repeat;
+}
+
+.weather-container {
+    background-color: #fff;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+
+    
+    
+}
+
+.box-2{
+    display:flex;
+    justify-content: space-around;
+  }
+
+  .box-buttons{
+    height: fit-content;
+    display: flex;
+    justify-content:space-between;
+    border:solid;
+    padding: 5px;
+    padding-right: 40px;
+    border-radius: 500px;
+    align-items: center;
+    margin:2rem;
+  }
+
+
+  .box-buttons > img{
+    object-fit: cover;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+  }
+  
+  .box-buttons > h2{
+    text-align: center;
+    flex:1;
+  }
+  
